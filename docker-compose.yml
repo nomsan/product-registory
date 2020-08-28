@@ -5,7 +5,8 @@ volumes:
 
 services:
   web:
-    build: .
+    build: 
+      dockerfile: Dockerfile.prod
     ports:
       - '3000:3000'
     volumes:

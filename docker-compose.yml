@@ -7,7 +7,7 @@ services:
   web:
     build:
       context: app
-      dockerfile: Dockerfile.prod
+      dockerfile: ./Dockerfile.prod
     ports:
       - '3000:3000'
     volumes:
